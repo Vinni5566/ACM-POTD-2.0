@@ -88,4 +88,4 @@ int main() {
 
 ## ✅ Acceptance
 
-![Codeforces Accepted Submission](./screenshots/day3-accepted.png)
+![Codeforces Accepted Submission](./screenshots/Beginner/day3-accepted.png)
