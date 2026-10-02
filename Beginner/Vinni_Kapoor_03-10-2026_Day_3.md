@@ -88,4 +88,4 @@ int main() {
 
 ## 📸 Acceptance Screenshot
 
-![Codeforces Accepted Submission](./screenshots/Beginner/day3-accepted.png)
+![Codeforces Accepted Submission](../screenshots/Beginner/day3-accepted.png)
