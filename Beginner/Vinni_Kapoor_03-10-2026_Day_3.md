@@ -86,6 +86,6 @@ int main() {
 
 ---
 
-## ✅ Acceptance
+## 📸 Acceptance Screenshot
 
 ![Codeforces Accepted Submission](./screenshots/Beginner/day3-accepted.png)
