@@ -1,18 +1,18 @@
-**# 🚀 POTD Challenge — Day 2**
+# 🚀 POTD Challenge - Day 2
 
-**## 🧩 Problem: Wet Shark and Odd and Even**
+## 🧩 Problem: Wet Shark and Odd and Even
 
 - **Difficulty:** 900 Rating
 
 ---
 
-**## 📌 Problem**
+## 📌 Problem
 
 Given `n` integers, find the **maximum possible even sum** by using each integer at most once.
 
 If no integers are selected, the sum is `0`.
 
-**### Example**
+### Example
 
 **Input:**
 ```text
@@ -27,19 +27,19 @@ If no integers are selected, the sum is `0`.
 
 ---
 
-**## ⏱️ Time Complexity**
+## ⏱️ Time Complexity
 
 **O(n log n)**
 
 ---
 
-**## 💾 Space Complexity**
+## 💾 Space Complexity
 
 **O(n)**
 
 ---
 
-**## 💻 Solution**
+## 💻 Solution
 
 ```cpp
 #include <iostream>
@@ -86,6 +86,6 @@ int main() {
 
 ---
 
-**## 📸 Acceptance Screenshot**
+## 📸 Acceptance Screenshot
 
 ![Codeforces Accepted Submission](../screenshots/Intermediate/day2-accepted.png)
