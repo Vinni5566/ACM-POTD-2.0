@@ -1,12 +1,12 @@
-**# 🚀 POTD Challenge - Day 2**
+# **🚀 POTD Challenge - Day 2**
 
-**## 🧩 Problem: Flag**
+## **🧩 Problem: Flag**
 
 - **Difficulty:** 800 Rating
 
 ---
 
-**## 📌 Problem**
+## **📌 Problem**
 
 Given a rectangular flag of size `n × m`, check whether it follows the required striped pattern:
 
@@ -15,7 +15,7 @@ Given a rectangular flag of size `n × m`, check whether it follows the required
 
 Output `YES` if the flag satisfies these conditions, otherwise output `NO`.
 
-**### Example**
+### **Example**
 
 **Input:**
 ```text
@@ -32,19 +32,19 @@ YES
 
 ---
 
-**## ⏱️ Time Complexity**
+## **⏱️ Time Complexity**
 
 **O(n × m)**
 
 ---
 
-**## 💾 Space Complexity**
+## **💾 Space Complexity**
 
 **O(n × m)**
 
 ---
 
-**## 💻 Solution**
+## **💻 Solution**
 
 ```cpp
 #include <iostream>
@@ -84,6 +84,6 @@ int main() {
 
 ---
 
-**## 📸 Acceptance Screenshot**
+## **📸 Acceptance Screenshot**
 
 ![Codeforces Accepted Submission](../screenshots/Beginner/day2-accepted.png)
