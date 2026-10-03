@@ -1,6 +1,6 @@
-# 🚀 PTD Challenge — Day 4
+# 🚀 POTD Challenge - Day 3
 
-## 🧩 Problem: [Problem Name]
+## 🧩 Problem: The Time
 
 - **Difficulty:** 900 Rating
 
