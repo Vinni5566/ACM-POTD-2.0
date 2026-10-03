@@ -1,12 +1,12 @@
-**# 🚀 POTD Challenge - Day 1**
+# 🚀 POTD Challenge - Day 1
 
-**## 🧩 Problem: Tricky Sum**
+## 🧩 Problem: Tricky Sum
 
 - **Difficulty:** 900 Rating
 
 ---
 
-**## 📌 Problem**
+## 📌 Problem
 
 Calculate the sum of all integers from `1` to `n`, but every **power of two** must be taken with a negative sign.
 
@@ -16,7 +16,7 @@ For example, for `n = 4`:
 
 Calculate the answer for `t` different values of `n`.
 
-**### Example**
+### Example
 
 **Input:**
 ```text
@@ -33,19 +33,19 @@ Calculate the answer for `t` different values of `n`.
 
 ---
 
-**## ⏱️ Time Complexity**
+## ⏱️ Time Complexity
 
 **O(t × log n)**
 
 ---
 
-**## 💾 Space Complexity**
+## 💾 Space Complexity
 
 **O(1)**
 
 ---
 
-**## 💻 Solution**
+## 💻 Solution
 
 ```cpp
 #include <iostream>
@@ -92,6 +92,6 @@ int main() {
 
 ---
 
-**## 📸 Acceptance Screenshot**
+## 📸 Acceptance Screenshot
 
 ![Codeforces Accepted Submission](../screenshots/Intermediate/day1-accepted.png)
