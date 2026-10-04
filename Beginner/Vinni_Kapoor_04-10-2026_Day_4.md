@@ -77,4 +77,4 @@ int main() {
 
 ## 📸 Acceptance Screenshot
 
-![Codeforces Accepted Submission](../screenshots/Beginner/.png)
+![Codeforces Accepted Submission](../screenshots/Beginner/day4-accepted.png)
