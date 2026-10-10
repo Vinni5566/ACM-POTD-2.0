@@ -30,13 +30,13 @@ YES
 
 ## ⏱️ Time Complexity
 
-**O(n)** - traversing the string to find the last letter takes linear time.
+**O(n)**
 
 ---
 
 ## 💾 Space Complexity
 
-**O(n)** - storing the input string requires linear space.
+**O(n)**
 
 ---
 
