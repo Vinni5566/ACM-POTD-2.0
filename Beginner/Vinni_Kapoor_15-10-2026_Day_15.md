@@ -29,13 +29,13 @@ Given an \(n \times m\) grid containing exactly three asterisks (`*`), find the 
 
 ## ⏱️ Time Complexity
 
-**O(n × m)** — every cell in the grid is checked once.
+**O(n × m)**
 
 ---
 
 ## 💾 Space Complexity
 
-**O(1)** — only three coordinates and a few integer variables are needed, excluding the stored coordinates.
+**O(1)**
 
 ---
 
