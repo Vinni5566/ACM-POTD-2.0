@@ -1,0 +1,93 @@
+# 🚀 POTD Challenge - Day 4
+
+## 🧩 Problem: Holidays
+
+- **Difficulty:** 900 Rating
+
+---
+
+## 📌 Problem
+
+On Mars, a year has `n` days, and each week consists of 5 working days followed by 2 days off. Determine the minimum and maximum possible number of days off in a year, depending on which day of the week the year starts.
+
+### Example
+
+**Input:**
+```text
+14
+```
+
+**Output:**
+```text
+4 4
+```
+
+---
+
+## ⏱️ Time Complexity
+
+**O(1)**
+
+---
+
+## 💾 Space Complexity
+
+**O(1)**
+
+---
+
+## 💻 Solution
+
+```cpp
+#include <iostream>
+using namespace std;
+
+int main() {
+
+    long long n;
+    cin>>n;
+
+    long long maxDaysOff = 0;
+    long long minDaysOff = 0;
+
+    if(n == 1) {
+        minDaysOff = 0;
+        maxDaysOff = 1;
+    }
+    
+    else if(n <= 5) {
+        minDaysOff = 0;
+        maxDaysOff = 2;
+    }
+
+    else if(n == 6) {
+        minDaysOff = 1;
+        maxDaysOff = 2;
+    }
+
+    else if(n == 7) {
+        minDaysOff = 2;
+        maxDaysOff = 2;
+    }
+    
+    else {
+        minDaysOff = (n / 7) * 2;
+        maxDaysOff = (n / 7) * 2;
+
+        if(n%7 == 6) minDaysOff++;
+
+        if(n%7 == 1) maxDaysOff++;
+        else if(n%7 > 1) maxDaysOff+=2;
+    }
+
+    cout<<minDaysOff<<" "<<maxDaysOff<<endl;
+
+    return 0;
+}
+```
+
+---
+
+## 📸 Acceptance Screenshot
+
+![Codeforces Accepted Submission](../screenshots/Intermediate/day4-accepted.png)

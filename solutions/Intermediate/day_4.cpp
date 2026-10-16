@@ -9,7 +9,12 @@ int main() {
     long long maxDaysOff = 0;
     long long minDaysOff = 0;
 
-    if(n <= 5) {
+    if(n == 1) {
+        minDaysOff = 0;
+        maxDaysOff = 1;
+    }
+    
+    else if(n <= 5) {
         minDaysOff = 0;
         maxDaysOff = 2;
     }
@@ -25,19 +30,16 @@ int main() {
     }
     
     else {
-        minDaysOff = n / 7 * 2;
+        minDaysOff = (n / 7) * 2;
         maxDaysOff = (n / 7) * 2;
 
-        if(n%7 == 2 || n%7 == 3 || n%7 == 4 || n%7 == 5) {
-            maxDaysOff+=2;;
-        } else if(n%7 == 1) {
-            maxDaysOff+=1;
-        } else if(n%7 == 6) {
-            maxDaysOff+=3;
-        }
+        if(n%7 == 6) minDaysOff++;
+
+        if(n%7 == 1) maxDaysOff++;
+        else if(n%7 > 1) maxDaysOff+=2;
     }
 
-    cout << minDaysOff << " " << maxDaysOff << endl;
+    cout<<minDaysOff<<" "<<maxDaysOff<<endl;
 
     return 0;
 }
