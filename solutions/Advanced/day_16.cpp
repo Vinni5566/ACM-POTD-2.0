@@ -43,8 +43,15 @@ int main() {
         } 
         
         else if(card == 'y') {
-            if(team == 'h' && red_h[player] == 0 && yellow_h[player] == 2) cout<<home<<" "<<player<<" "<<minute<<endl;
-            else if(team == 'a' && red_a[player] == 0 && yellow_a[player] == 2) cout<<away<<" "<<player<<" "<<minute<<endl;
+            if(team == 'h' && red_h[player] == 0 && yellow_h[player] == 2) {
+                cout<<home<<" "<<player<<" "<<minute<<endl;
+                red_h[player]++;
+            }
+
+            else if(team == 'a' && red_a[player] == 0 && yellow_a[player] == 2) {
+                cout<<away<<" "<<player<<" "<<minute<<endl;
+                red_a[player]++;
+            }
         }
 
     }
