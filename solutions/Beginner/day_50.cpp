@@ -6,20 +6,16 @@ int main() {
     int n, m;
     cin>>n>>m;
 
-    vector<int> pos;
     vector<int> neg;
 
     for(int i=0; i<n; i++){
         int x;
         cin>>x;
-        if(x>=0){
-            pos.push_back(x);
-        }else{
+        if(x<0){
             neg.push_back(x);
         }
     }
 
-    sort(pos.begin(), pos.end());
     sort(neg.begin(), neg.end());
 
     int maxEarnedMoney = 0;
